@@ -9,8 +9,9 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
     Quotes = [
-      new Quote(1, 'A.B .Peter', '"The sun is also a Star 🤔."', new Date(2020, 10, 8) ),
+      new Quote(1, 'A.B .Peter', '"The Sun is Also Star🤔."', new Date(2020, 10, 8) ),
       new Quote(2, 'B.C .Abdul', '“i love Earth.”', new Date(2020, 10, 8) ),
+      new Quote(2, 'E.F .Mary', '“i Hate dramatic people.”', new Date(2020, 10, 8) ),
   
     ]
 
