@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="jumbotron-fluid">
   <div class="row">
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
       <!-- Name Form -->
@@ -42,7 +42,7 @@
       <div style="display: flex;position:center" class="form-group">
         <label for="complete">Date:</label>
         <br>
-        <input style="display: flex;position: absolute;" type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
+        <input style="border-radius: 5px solid grey;" type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
         <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
           <p>Date is Required</p>
         
@@ -55,3 +55,5 @@
   </div>
 </div>
 
+<!-- $ ng build --prod --base-href "https://peterkush.github.io/quotes/" -->
+ <!-- npx angular-cli-ghpages --dir=dist/quotes -->
