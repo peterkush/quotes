@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css"
+
+
+* {
+  margin: 0px 0px 0px 30px;
+  padding: 0px 16px 0px 15px;
+}
+
+
+html {
+  background-color:rgba(0, 0, 0,0.3);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+body {
+  width: 80%;
+  position: absolute;
+  background-color: rgb(180, 131, 172);
+  margin-left: 10%;
+}
+

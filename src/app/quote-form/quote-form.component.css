@@ -1,0 +1,32 @@
+ /* .displaytext {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  
+}
+
+
+.form1 {
+   width: 800px;
+  padding: 4px;
+  margin: 8px 0;
+ border-radius: 4%;
+ 
+}
+
+.form2 {
+  width: 800px;
+  
+  border-radius: 4%;
+}
+
+#addquote{
+  margin-left: 50%;
+  margin-top: -10%;
+}  */
+
+.container-fluild {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
